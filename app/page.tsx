@@ -12,15 +12,21 @@ export default function Home() {
     }}>
 
       <img
-        src="/logo.png"
+        src="/logo2.png"
         alt="Sunny Patel Photography"
-        style={{ width: "980px" }}
+        style={{ width: "700px" }}
       />
 
-    
+      <br />
 
       <p style={{ fontSize: "2rem", color: "#666" }}>
         Website coming soon 📸
+      </p>
+
+      <br />
+
+      <p style={{ fontSize: "2rem", color: "#666" }}>
+        Instagram: @sunnypatelphotography
       </p>
 
     </main>
