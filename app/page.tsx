@@ -20,7 +20,7 @@ export default function Home() {
       <br />
 
       <p style={{ fontSize: "2rem", color: "#666" }}>
-        Website coming soon 📸
+        Staging - Website coming soon 📸
       </p>
 
       <br />
