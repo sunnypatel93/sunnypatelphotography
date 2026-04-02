@@ -1,0 +1,34 @@
+export default function Page() {
+  return (
+    <main style={{
+      minHeight: "100vh",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      justifyContent: "flex-start", 
+      paddingTop: "100px",
+      fontFamily: "Arial, sans-serif",
+      textAlign: "center"
+    }}>
+
+      <img
+        src="/logo2.png"
+        alt="Sunny Patel Photography"
+        style={{ width: "700px" }}
+      />
+
+      <br />
+
+      <p style={{ fontSize: "2rem", color: "#666" }}>
+        Staging - Website coming soon 📸
+      </p>
+
+      <br />
+
+      <p style={{ fontSize: "2rem", color: "#666" }}>
+        Instagram: @sunnypatelphotography
+      </p>
+
+    </main>
+  );
+}

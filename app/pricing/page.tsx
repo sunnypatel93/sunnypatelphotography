@@ -1,8 +1,8 @@
 export default function Page() {
   return (
     <main style={{ padding: "2rem" }}>
-      <h1>Homepage</h1>
-      <p>This is Homepage</p>
+      <h1>Pricing</h1>
+      <p>This is Pricing.</p>
     </main>
   );
 }
