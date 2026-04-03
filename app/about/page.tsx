@@ -1,8 +1,14 @@
 export default function Page() {
   return (
-    <main style={{ padding: "2rem" }}>
-      <h1>About me</h1>
-      <p>This is About me.</p>
+    <main className="min-h-screen pt-4 px-4">
+      <div className="w-full max-w-4xl mx-auto text-center">
+        <h1 className="text-xl md:text-3xl font-semibold mt-4">
+          About
+        </h1>
+
+        <br /> <br />
+        Content coming soon!
+      </div>
     </main>
   );
 }
