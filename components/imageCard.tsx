@@ -4,10 +4,10 @@ type CardProps = {
   description: string;
 };
 
-export default function Card({ imageSrc, title, description }: CardProps) {
+export default function ImageCard({ imageSrc, title, description }: CardProps) {
   return (
     <div className="max-w-sm rounded-2xl overflow-hidden shadow-md border bg-white">
-      
+
       {/* Image */}
       <div className="w-full h-48 overflow-hidden">
         <img
